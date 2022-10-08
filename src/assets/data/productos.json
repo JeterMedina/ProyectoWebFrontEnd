@@ -1,0 +1,128 @@
+[
+    {
+     "Modelo": "Jazz",
+     "Marca": "Fender",
+     "Año": 1970,
+     "NoCuerdas": 4,
+     "Num_Serie": "tX7rvMn6"
+    },
+    {
+     "Modelo": "Precision",
+     "Marca": "Gibson",
+     "Año": 1989,
+     "NoCuerdas": 5,
+     "Num_Serie": "exJtK6ti"
+    },
+    {
+     "Modelo": "Jaguar",
+     "Marca": "Squier",
+     "Año": 1988,
+     "NoCuerdas": 4,
+     "Num_Serie": "jixmBnmn"
+    },
+    {
+     "Modelo": "Mustang",
+     "Marca": "Epiphone",
+     "Año": 1978,
+     "NoCuerdas": 5,
+     "Num_Serie": "t2yomMTn"
+    },
+    {
+     "Modelo": "Telecaster",
+     "Marca": "Yamaha",
+     "Año": 1990,
+     "NoCuerdas": 4,
+     "Num_Serie": "46mMYgUP"
+    },
+    {
+     "Modelo": "Jazz",
+     "Marca": "Soame",
+     "Año": 1959,
+     "NoCuerdas": 5,
+     "Num_Serie": "iDQBCX9n"
+    },
+    {
+     "Modelo": "Precision",
+     "Marca": "Fender",
+     "Año": 2022,
+     "NoCuerdas": 4,
+     "Num_Serie": "aY7esYNJ"
+    },
+    {
+     "Modelo": "Jaguar",
+     "Marca": "Gibson",
+     "Año": 2005,
+     "NoCuerdas": 5,
+     "Num_Serie": "y2QyP8cQ"
+    },
+    {
+     "Modelo": "Mustang",
+     "Marca": "Squier",
+     "Año": 2006,
+     "NoCuerdas": 4,
+     "Num_Serie": "tySPbJmU"
+    },
+    {
+     "Modelo": "Telecaster",
+     "Marca": "Epiphone",
+     "Año": 2004,
+     "NoCuerdas": 5,
+     "Num_Serie": "YKtHeJha"
+    },
+    {
+     "Modelo": "Jazz",
+     "Marca": "Yamaha",
+     "Año": 1998,
+     "NoCuerdas": 4,
+     "Num_Serie": "UhdNXnzp"
+    },
+    {
+     "Modelo": "Precision",
+     "Marca": "Soame",
+     "Año": 2001,
+     "NoCuerdas": 5,
+     "Num_Serie": "3JfS4eeV"
+    },
+    {
+     "Modelo": "Jaguar",
+     "Marca": "Fender",
+     "Año": 2007,
+     "NoCuerdas": 4,
+     "Num_Serie": "fMpKmCaQ"
+    },
+    {
+     "Modelo": "Mustang",
+     "Marca": "Gibson",
+     "Año": 1998,
+     "NoCuerdas": 5,
+     "Num_Serie": "gosGWEFa"
+    },
+    {
+     "Modelo": "Telecaster",
+     "Marca": "Squier",
+     "Año": 1990,
+     "NoCuerdas": 4,
+     "Num_Serie": "TrttDiww"
+    },
+    {
+     "Modelo": "Jazz",
+     "Marca": "Epiphone",
+     "Año": 1980,
+     "NoCuerdas": 5,
+     "Num_Serie": "pbcPt9Nm"
+    },
+    {
+     "Modelo": "Precision",
+     "Marca": "Yamaha",
+     "Año": 1997,
+     "NoCuerdas": 4,
+     "Num_Serie": "PiBTqhve"
+    },
+    {
+     "Modelo": "Jaguar",
+     "Marca": "Soame",
+     "Año": 1999,
+     "NoCuerdas": 5,
+     "Num_Serie": "6vfZyzJ7"
+    }
+   ]

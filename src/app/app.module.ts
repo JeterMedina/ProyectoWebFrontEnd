@@ -5,17 +5,22 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './COMPONENTES/NAVBAR/navbar/navbar.component';
 
 import {AppRoutingModule} from '../assets/ROUTES/app.routes';
-import { InicioComponent } from './COMPONENTES/PAGES/INICIO/inicio/inicio.component'
+import { InicioComponent } from './COMPONENTES/PAGES/INICIO/inicio/inicio.component';
+import { AboutComponent } from './COMPONENTES/PAGES/ABOUT/about/about.component'
+
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    InicioComponent
+    InicioComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

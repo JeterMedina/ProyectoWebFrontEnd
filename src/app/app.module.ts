@@ -10,6 +10,8 @@ import { AboutComponent } from './COMPONENTES/PAGES/ABOUT/about/about.component'
 
 import {HttpClientModule} from '@angular/common/http';
 
+import {CommonModule} from '@angular/common';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import {HttpClientModule} from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

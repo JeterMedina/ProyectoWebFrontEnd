@@ -9,15 +9,20 @@ import {} from '@angular/router';
 })
 export class AboutComponent implements OnInit {
 
-  ProductList: any[]=[];
+  ProductList=null;
   constructor(private ProductSvc:ProductoService) {
-    this.ProductSvc.getAll().subscribe((result:any)=>{
-      this.ProductList=result;
-      console.log(result)
-    })
-   }
+
+    }
+   
 
   ngOnInit(): void {
+    this.MostrarTodos();
+  }
+
+  MostrarTodos(){
+    this.ProductSvc.getAll().subscribe((result:any)=>
+      this.ProductList=result);
+    console.log(this.ProductList);
   }
 
 }

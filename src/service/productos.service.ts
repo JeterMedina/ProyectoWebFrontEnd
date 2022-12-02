@@ -2,7 +2,6 @@ import { Injectable } from "@angular/core";
 import{HttpClient} from '@angular/common/http';
 import { Observable } from "rxjs";
 
-const URL = 'assets/data/productos.json';
 
 @Injectable({
     providedIn:'root'
@@ -10,8 +9,11 @@ const URL = 'assets/data/productos.json';
 
 export class ProductoService{
     //* Se necesita el constructor para que funcione*/
+
+    url = 'http://localhost/conexion/';
     constructor(private http:HttpClient){}
     getAll(){
-        return this.http.get(URL)
+        return this.http.get(`${this.url}getall.php`);
     }
+
 }

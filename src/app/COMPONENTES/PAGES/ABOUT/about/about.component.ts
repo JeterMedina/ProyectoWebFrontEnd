@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FormGroup, FormControl} from '@angular/forms';
 import { ProductoService } from 'src/service/productos.service';
 import {} from '@angular/router';
 
@@ -10,11 +11,19 @@ import {} from '@angular/router';
 export class AboutComponent implements OnInit {
 
   ProductList=null;
+
+  productForm = new FormGroup({
+    Marca: new FormControl(''),
+    Modelo: new FormControl(''),
+    Anio: new FormControl(''),
+    NoCuerdas: new FormControl(''),
+    Num_Serie: new FormControl('')
+  });
+
   constructor(private ProductSvc:ProductoService) {
 
     }
    
-
   ngOnInit(): void {
     this.MostrarTodos();
   }
@@ -23,6 +32,13 @@ export class AboutComponent implements OnInit {
     this.ProductSvc.getAll().subscribe((result:any)=>
       this.ProductList=result);
     console.log(this.ProductList);
+  }
+
+  Agregar(): void{
+    this.ProductSvc.agregar(this.productForm.value).subscribe(() => {
+      this.MostrarTodos();
+     // this.productForm.reset('');
+    })
   }
 
 }

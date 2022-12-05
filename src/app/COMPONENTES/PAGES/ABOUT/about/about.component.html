@@ -16,6 +16,20 @@
         <td>{{item.NoCuerdas}}</td>
         <td>{{item.Num_Serie}}</td>
       </tr>
-     
     </tbody>
   </table>
+  <div class="col">
+    <form [formGroup] = 'productForm'>
+      <div class="input-group mb-3">
+        <div class="input-group prepend">
+          <span class="input-group text">Producto nuevo</span>
+        </div>
+        <input formControlName="Marca" type="text" class="form-control" placeholder="Marca">
+        <input formControlName="Modelo" type="text" class="form-control" placeholder="Modelo">
+        <input formControlName="Anio" type="text" class="form-control" placeholder="Anio">
+        <input formControlName="NoCuerdas" type="text" class="form-control" placeholder="NoCuerdas">
+        <input formControlName="Num_Serie" type="text" class="form-control" placeholder="Num_Serie">
+      </div>
+      <button (click)="Agregar()" class="btn btn-dark mb-2">Agregar</button>
+    </form>
+   </div>

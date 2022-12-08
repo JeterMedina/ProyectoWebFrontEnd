@@ -1,6 +1,5 @@
 import { Injectable } from "@angular/core";
 import{HttpClient} from '@angular/common/http';
-import {FormGroup, FormControl} from '@angular/forms';
 import { Observable } from "rxjs";
 
 
@@ -19,6 +18,10 @@ export class ProductoService{
 
     agregar(Producto:string){
         return this.http.post(`${this.url}post.php`,JSON.stringify(Producto));
+    }
+
+    eliminar(Id_Producto:any){
+        return this.http.delete(`${this.url}delete.php/Num_Serie=${Id_Producto}`);
     }
 
 }

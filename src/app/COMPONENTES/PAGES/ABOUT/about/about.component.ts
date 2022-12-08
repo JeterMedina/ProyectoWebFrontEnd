@@ -41,4 +41,13 @@ export class AboutComponent implements OnInit {
     })
   }
 
+  Eliminar(Id_Productos:any):void{
+    console.log(Id_Productos)
+      this.ProductSvc.eliminar(Id_Productos).subscribe(() => {
+        this.MostrarTodos();
+      },(error) => {
+        console.error(error);
+    })
+  }
+
 }

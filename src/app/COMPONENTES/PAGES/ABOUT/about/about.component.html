@@ -15,6 +15,7 @@
         <td>{{item.Anio}}</td>
         <td>{{item.NoCuerdas}}</td>
         <td>{{item.Num_Serie}}</td>
+        <button class="btn btn-danger text:white" (click)="Eliminar(item.Num_Serie)">Borrar</button>
       </tr>
     </tbody>
   </table>
@@ -31,5 +32,17 @@
         <input formControlName="Num_Serie" type="text" class="form-control" placeholder="Num_Serie">
       </div>
       <button (click)="Agregar()" class="btn btn-dark mb-2">Agregar</button>
+    </form>
+   </div>
+
+   <div class="col">
+    <form [formGroup] = 'productForm'>
+      <div class="input-group mb-3">
+        <div class="input-group prepend">
+          <span class="input-group text">Producto Eliminar</span>
+        </div>
+        <input formControlName="Num_Serie" type="text" class="form-control" placeholder="Num_Serie">
+      </div>
+      <!--<button (click)="Eliminar()" class="btn btn-dark mb-2">Eliminar</button>-->
     </form>
    </div>
